@@ -1,0 +1,31 @@
+{
+    "name": "golgote/console_getargs2",
+    "type": "library",
+    "description": "Console arguments parser and rules.",
+    "keywords": [
+        "console", "cli", "getopt"
+    ],
+    "license": "Simplified BSD License",
+    "authors": [
+        {
+            "name": "Bertrand Mansion",
+            "homepage": "http://pear.php.net/user/mansion"
+        },
+        {
+            "name": "Scott Mattocks",
+            "homepage": "http://pear.php.net/user/scottmattocks"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "classmap": [
+            "GetArgs2.php"
+        ]
+    },
+    "support": {
+        "issues": "https://github.com/golgote/Console_GetArgs2/issues",
+        "source": "https://github.com/golgote/Console_GetArgs2"
+    }
+}
