@@ -5,7 +5,7 @@
     "keywords": [
         "console", "cli", "getopt"
     ],
-    "license": "Simplified BSD License",
+    "license": "BSD-2-Clause",
     "authors": [
         {
             "name": "Bertrand Mansion",
