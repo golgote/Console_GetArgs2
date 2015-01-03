@@ -90,12 +90,14 @@ if (isset($args['bs'])) {
 }
 echo 'Files: '.(isset($args['file']) ? implode(', ', $args['file'])."\n" : "undefined\n");
 if (isset($args['n'])) {
- echo 'Nodes: '.(is_array($args['n'])) ? implode(', ', $args['n'])."\n" : $args['n']."\n");
+ echo 'Nodes: '.(is_array($args['n']) ? implode(', ', $args['n'])."\n" : $args['n']."\n");
 } else {
  echo "Nodes: undefined\n";
 }
 echo 'Log: '.$args['log']."\n";
-echo 'Debug: '.(isset($args['d'])) ? "YES\n" : "NO\n");
+echo 'Debug: '.(isset($args['d']) ? "YES\n" : "NO\n");
 ```
 
 If you don't want to require any option name for a set of arguments, or if you would like any "leftover" arguments assigned by default, you can create an option named CONSOLE_GETARGS_PARAMS that will grab any arguments that cannot be assigned to another option. The rules for CONSOLE_GETARGS_PARAMS are still the same. If you specify that two values must be passed then two values must be passed. See the example script for a complete example.
+
+More examples : [https://github.com/pear/Console_Getargs/tree/master/examples](https://github.com/pear/Console_Getargs/tree/master/examples)
